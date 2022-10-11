@@ -29,7 +29,7 @@ Ces deux tables sont liés par [user.id](http://user.id) et post.user_id qui per
 
 Voici les fichiers que nous retrouvons à la base du fichier.
 
-![Untitled](README%20Projet%20LeagueBlog%207bb1f483e52f440c9870ef7bf12dc7eb/Untitled.png)
+<img width="652" alt="Capture d’écran 2022-10-11 à 17 05 53" src="https://user-images.githubusercontent.com/43339150/195128981-228915d3-e668-4989-9f69-9839a797a714.png">
 
 Comme éléments importants ici, nous retrouvons le dossier [app.py](http://app.py) contenant le code de notre site. 
 
@@ -41,7 +41,8 @@ Le dossier sql contient les le Dockerfile pour la base de données et le fichier
 
 ## app.py
 
-![Untitled](README%20Projet%20LeagueBlog%207bb1f483e52f440c9870ef7bf12dc7eb/Untitled%201.png)
+<img width="652" alt="Capture d’écran 2022-10-11 à 17 06 20" src="https://user-images.githubusercontent.com/43339150/195129081-588cc23a-a9bd-4758-a75f-3ce34e4e6c56.png">
+
 
 Le fichier __init_.py est le main fichier de l’application.
 
@@ -55,7 +56,7 @@ Le fichier __init_.py est le main fichier de l’application.
 
 Le dossier templates contient les éléments de frontend.
 
-![Untitled](README%20Projet%20LeagueBlog%207bb1f483e52f440c9870ef7bf12dc7eb/Untitled%202.png)
+<img width="625" alt="Capture d’écran 2022-10-11 à 17 06 36" src="https://user-images.githubusercontent.com/43339150/195129254-6cf27a44-2bf4-4316-9a34-a3ecd32c6cfe.png">
 
 # Routes utilisées
 
