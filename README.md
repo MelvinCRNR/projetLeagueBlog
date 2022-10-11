@@ -15,7 +15,7 @@ Afin de mettre en place ce projet, nous allons utiliser les technologies suivant
 
 Notre base de données se compose de la sorte : 
 
-![BDDLeagueBlog.png](README%20Projet%20LeagueBlog%207bb1f483e52f440c9870ef7bf12dc7eb/BDDLeagueBlog.png)
+![BDD_LeagueBlog](https://user-images.githubusercontent.com/43339150/195128148-8b652ecb-dc35-4daf-9c5d-c3cbc1fc30e4.png)
 
 Nous possédons une base contenant 2 tables.
 
