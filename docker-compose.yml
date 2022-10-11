@@ -1,0 +1,19 @@
+version: "2"
+services:
+  app:
+    build: .
+    links:
+      - db
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/code
+  db:
+    build: ./sql/
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: Mysql2022
+    volumes:
+      - ./sql/lolbase.sql:/docker-entrypoint-initdb.d/lolbase.sql
