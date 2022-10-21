@@ -105,6 +105,29 @@ docker-compose up --build
 Allez ensuite sur l’adresse suivante :
 
 http://0.0.0.0:5000/
+  
+# Mise en production avec Azure
+  
+1.Création d'une machine virtuelle Ubuntu sur Azure
+2.Clonage du code avec Github
+3.Installation de Mysql avec Docker
+4.Lancement de l'application
+5.Application disponible sur l'URL suivant (Si machine activée sur Azure) :
+  http://20.199.46.16:5000/
+  
+J'au essayé de déployer avec Docker mais je rencontre quelque soucis au moment des appels à la base de données. 
+Voici quand même la méthode pour déployer avec Docker :
+
+1.Lancer la commande suivante pour récupérer l'image :
+  docker pull melvinks/projetleagueblog_app:latest
+2.Lancer la commande suivante pour récupérer l'image de la BDD :
+  docker pull melvinks/mysql:latest
+3.Run les 2 images pull :
+  docker run melvinks/mysql:latest
+  docker run melvinks/projetleagueblog_app:latest
+4.Se rendre sur l'adresse suivante :
+  http://20.199.46.16:5000/
+  
 
 # Problème rencontré
 
